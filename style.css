@@ -415,3 +415,75 @@ a {
     margin: 0px 5% 50px;
   }
 }
+
+/* Sign */
+.sign {
+  background-image: url("img/banner/b14.png");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 10%;
+  background-color: #021E43;
+  color: white;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.sign p span {
+  color: orange;
+}
+
+.sign-text {
+  width: 50%;
+}
+
+.sign-form {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.sign-form input {
+  padding: 20px 25px;
+  border-radius: 10px 0 0 10px;
+  border: 0;
+  width: 100%;
+}
+
+.sign-form input::placeholder {
+  font-size: 16px;
+}
+
+.sign-form input:focus {
+  outline: none;
+}
+
+.sign-form a {
+  padding: 20px 25px;
+  background-color: #088178;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  font-weight: 700; 
+  flex-shrink: 0;
+}
+
+@media(max-width: 850px) {
+  .sign {
+    align-items: start;
+    flex-direction: column;
+  }
+  .sign-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .sign-form {
+    width: 100%;
+  }
+}

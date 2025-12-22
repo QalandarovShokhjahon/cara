@@ -204,8 +204,11 @@ a {
 }
 
 /* Product */
+.product-wrapper {
+  margin: 50px 0;
+}
 .product {
-  margin: 50px 10%;
+  margin: 20px 10%;
 }
 
 .product-title {
@@ -282,12 +285,15 @@ a {
 }
 
 @media (max-width: 480px) {
+  .product-wrapper {
+  margin: 30px 0;
+  }
   .product-title h2 {
     font-size: 32px;
   }
   .product-content {
     grid-template-columns: repeat(1, 1fr);
-}
+  }
 }
 
 /* Services */
@@ -565,4 +571,19 @@ a {
     align-items: start;
     margin: 30px 5%;
   }
+}
+
+/* Shop Header */
+.shop-header {
+  padding: 100px 5%;
+  background-image: url("img/banner/b1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.shop-header h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
 }
